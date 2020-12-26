@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mynote/ui/views/note/login_view.dart';
 import 'package:mynote/ui/views/note/note_view.dart';
 
 void main() {
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: NoteView(),
+      home: LoginPage(),
     );
   }
 }
